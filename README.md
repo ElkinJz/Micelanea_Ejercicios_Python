@@ -1,19 +1,3 @@
-# Micelanea_Ejercicios_Python
-# Ejercicio 1 Calcular el area de un triangulo
-  - Se solicita al usuario que ingrese la base y la altura por teclado
-  - El ejerecicio realiza la operacion de la formula Base x Altura /2
-  - Arrojando como resultado el Area del triangulo
-
-# Ejercicio 2 Introducir dos números por teclado y sumarlos
-  - Se solicita al usuario que ingrese dos numeros por teclado
-  - Se realiza la operacion aritmetica de la suma
-  - Arrojando como resultado la sumatoria de los dos numeros
-
-# Ejercicio 3 introducir un número por teclado y visualizar el número   elevado al cuadrado
-  - Se solicita al usuario que ingrese el numero a elevar al cuadrado
-  - se realiza la operacion de potencia con la funcion doble asterisco (a ** 2) para elevar al cuadrado el numero ingresado por el usuario
-  - Dando como resultado el numero elevado al cuadrado
-  
 # Ejercicio 3.1 introducir un número por teclado y visualizar el número   elevado al cuadrado
   - Se solicita al usuario que ingrese el numero a elevar al cuadrado
   - se realiza la operacion de potencia con la funcion pow (Devuelve un número elevado a la potencia de un exponente) pow(a, 2) para elevar al cuadrado el numero ingresado por el usuario
@@ -67,13 +51,32 @@
   - imprimiendo como resultado el area del trisngulo
   
   # Ejercicio 12 área y el volumen de un cilindro
-    - Se solicita al usuario que ingrese el diametro y l aaltura del cilindro y estos se guardan en dos variables
-    - se realiza la operacion con la formula r=(d/2) para optener el radio
-    - se realiza la operacion para optener el area con al formula a=((2*pi)*r)*(+h) y el perimetro con la formula ab=pi*(r^2)
-    -imprmiendo por pantalla el area y el volumen del cilindro
+    - Se solicita al usuario que ingrese el diametro y la altura del cilindro y estos se guardan en dos variables
+    - se realiza la operacion con la formula radio=(diametro/2) para optener el radio
+    - se realiza la operacion para calcular el area con la formula area=((2*pi)*radio)*(radio + altura) y el perimetro con la formula area base=pi*(radio^2)
+    -Se imprime por pantalla el area y el volumen del cilindro
     
   # Ejercicio 13 LONGITUD Y AREA DE UNA CIRCUNFERENCIA
-    - 
- 
- 
- 
+    - Se solicita al usuario que digite el radio de la circunferencia, está se guarda en una variable (r)
+    - Se declara la variable (pi) para usarlo en las formula para calcular el area y longitud 
+    - Se realiza operación para calcular la longitud de la circunferencia con la formula longitud=(2 x radio x pi) y el area de la circunferencia con la formula area=(pi x radio^2)
+    - Se imprime por pantalla el resultado de area y longitud de la circunferencia
+  
+  #Ejercicio 14 Calcular el promedio de tres números introducidos por teclado
+  - Se solicita al usuario que digite el valor de cada numero por teclado
+  - se realiza la operacion para sacar el promedio de los tres numeros conla siguiente formula prom=(a+b+c)/3
+  se imprime por pantalla el promedio de los 3 numeros ingresados
+  
+  #Ejercicio 14.1 Calcular el promedio de tres números introducidos por teclado
+  - Se solicita al usuario que digite el valor de cada numero por teclado
+  - Se usa la funcion float para poder digitar numeros con decimales por ejemplo las notas 4.2, 3.5
+  - - se realiza la operacion para sacar el promedio de los tres numeros conla siguiente formula prom=(a+b+c)/3
+  se imprime por pantalla el promedio de los 3 numeros ingresados
+    
+   # 14.2 Ejercicio Calcular el promedio de tres números introducidos por teclado
+   - Se solicita al usuario que digite el valor de cada numero por teclado
+  - Se usa la funcion float para poder digitar numeros con decimales por ejemplo las notas 4.2, 3.5
+  - - se realiza la operacion para sacar el promedio de los tres numeros conla siguiente formula prom=(a+b+c)/3
+  -para imprimir el promedio en pantalla se utilizo el condicional IF(si), si este era mayor que 3 imprimia en pantalla el promedio y arrojaba un mensaje GANÓ y si este era menor que 3 imprime en pantalla el promedio y arrojaba un mensaje PERDIO
+  
+    
