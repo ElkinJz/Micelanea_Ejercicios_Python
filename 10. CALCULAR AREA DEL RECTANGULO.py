@@ -3,8 +3,8 @@ print(" ")
 
 #Entradas
 #Base = Anchura
-Altura = int(input("Ingrese el valor de la altura : "))
-Base = int(input("Ingrese el valor de la base     : "))
+Altura = float(input("Ingrese el valor de la altura : "))
+Base = float(input("Ingrese el valor de la base     : "))
 
 #Proceso
 #Formula Area = Altura x Base
