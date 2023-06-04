@@ -1,15 +1,14 @@
-# Calcjular el area de un triangulo
-print (CALCULAR AREA DE UN TRIANGULO)
-print( )
+# Calcular el area de un triangulo
+print ("1. CALCULAR AREA DE UN TRIANGULO \n")
 
 #Entrada
-base = int(input(ingrese la base del triangulo ))
-altura = int(input(Ingrese la altura del triangulo ))
+base = int(input("ingrese la base del triangulo: "))
+altura = int(input("Ingrese la altura del triangulo: "))
 
-print( )
+print(" ")
 
 #Proceso
-area = (base  altura)  2
+area = (base * altura) / 2
 
 #Salida
-print(El area del triangulo es , area)
+print("El area del triangulo es: ", area)
